@@ -93,4 +93,34 @@ public class ConsoleMenu {
                 break;
         }
     }
+
+    private void findBySpeciesMenu() {
+        System.out.println("\nFind by Species");
+        System.out.println("1. Dog");
+        System.out.println("2. Cat");
+        System.out.println("3. Bird");
+        System.out.print("Select species to search: ");
+        int choice = scanner.nextInt();
+
+        String speciesName = "";
+        if (choice == 1) speciesName = "Dog";
+        else if (choice == 2) speciesName = "Cat";
+        else if (choice == 3) speciesName = "Bird";
+        else {
+            System.out.println("Invalid choice!\n");
+            return;
+        }
+
+        List<Animal> found = shelter.findBySpecies(speciesName);
+        System.out.println("\nResults for " + speciesName);
+        if (found.isEmpty()) {
+            System.out.println("No " + speciesName.toLowerCase() + "s found.\n");
+        } else {
+            for (Animal animal : found) {
+                System.out.println(animal);
+            }
+            System.out.println();
+        }
+    }
+}
 }
