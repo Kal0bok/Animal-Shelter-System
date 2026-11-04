@@ -12,7 +12,7 @@ public class ConsoleMenu {
         this.shelter = shelter;
     }
 
-    public void start(){
+    public int start(){
         printMenu();
         // TODO:
         // Show menu in a loop
@@ -20,7 +20,7 @@ public class ConsoleMenu {
         // Call correct 'Shelter' methods based on selected option
     }
 
-    private void printMenu(){
+    private int printMenu(){
         System.out.println("""
                 1. Add animal
                 2. List all animals
@@ -30,5 +30,7 @@ public class ConsoleMenu {
                 0. Exit
                 """);
 
+        int menuChoice = scanner.nextInt();
+        return menuChoice;
     }
 }
