@@ -13,6 +13,7 @@ public class ConsoleMenu {
     }
 
     public void start(){
+        printMenu();
         // TODO:
         // Show menu in a loop
         // Read user input
@@ -28,5 +29,6 @@ public class ConsoleMenu {
                 5. Mark animal as adopted
                 0. Exit
                 """);
+
     }
 }
