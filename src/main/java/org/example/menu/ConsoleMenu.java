@@ -1,8 +1,13 @@
 package org.example.menu;
 
 import org.example.model.Animal;
+import org.example.model.AnimalId;
+import org.example.model.Dog;
+import org.example.model.Cat;
+import org.example.model.Bird;
 import org.example.shelter.Shelter;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class ConsoleMenu {
@@ -22,15 +27,15 @@ public class ConsoleMenu {
                 break;
             }
 
-            switch (choice){
+            switch (choice) {
                 case 1:
-                    System.out.println("Add animal");
+                    addAnimalMenu();
                     break;
                 case 2:
-                    System.out.println("Animal list");
+                    listAllAnimals();
                     break;
                 case 3:
-                    System.out.println("Search by species");
+                    findBySpeciesMenu();
                     break;
                 default: System.out.println("Incorrect input! Try again!");
                 break;
@@ -53,5 +58,39 @@ public class ConsoleMenu {
         System.out.println("Choose an option: ");
 
         return scanner.nextInt();
+    }
+
+    private void addAnimalMenu() {
+        System.out.println("\nAdd Animal:");
+        System.out.println("1. Dog");
+        System.out.println("2. Cat");
+        System.out.println("3. Bird");
+        System.out.print("Select species: ");
+        int speciesChoice = scanner.nextInt();
+        scanner.nextLine();
+
+        System.out.print("Enter animal name: ");
+        String name = scanner.nextLine();
+
+        System.out.print("Enter animal age: ");
+        int age = scanner.nextInt();
+
+        switch (speciesChoice) {
+            case 1:
+                shelter.addAnimal(new Dog(new AnimalId(), name, age));
+                System.out.println("Dog added successfully!\n");
+                break;
+            case 2:
+                shelter.addAnimal(new Cat(new AnimalId(), name, age));
+                System.out.println("Cat added successfully!\n");
+                break;
+            case 3:
+                shelter.addAnimal(new Bird(new AnimalId(), name, age));
+                System.out.println("Bird added successfully!\n");
+                break;
+            default:
+                System.out.println("Invalid species choice. Animal not added.\n");
+                break;
+        }
     }
 }
