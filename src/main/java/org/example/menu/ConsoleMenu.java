@@ -122,5 +122,18 @@ public class ConsoleMenu {
             System.out.println();
         }
     }
+
+    private void listAllAnimals() {
+        System.out.println("\nAll Animals in Shelter");
+        List<Animal> all = shelter.getAllAnimals();
+        if (all.isEmpty()) {
+            System.out.println("No animals in the shelter yet.\n");
+        } else {
+            for (Animal animal : all) {
+                System.out.println(animal);
+            }
+            System.out.println();
+        }
+    }
 }
-}
+
