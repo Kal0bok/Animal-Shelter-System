@@ -20,18 +20,9 @@ public class Main {
         ConsoleMenu consoleMenu = new ConsoleMenu(shelter);
         // start the menu loop
 
-        int i = consoleMenu.start();
+        consoleMenu.start();
 
-        switch(i){
-//            case 1: addAnimal();
-                break;
-//            case 2: getAllAnimals();
-                break;
-//            case 3: findBySpecies();
-                break;
-            default:
-                break;
-        }
+
 
 
     }
