@@ -6,7 +6,7 @@ import org.example.shelter.Shelter;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Welcome to the Animal Shelter!");
+        System.out.println("Welcome to the Animal Shelter!" + "\n");
 
         // create shelter object
         Shelter<Animal> shelter = new Shelter<>();
@@ -19,6 +19,11 @@ public class Main {
         // create a ConsoleMenu object
         ConsoleMenu consoleMenu = new ConsoleMenu(shelter);
         // start the menu loop
+
         consoleMenu.start();
+
+
+
+
     }
 }

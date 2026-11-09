@@ -1,6 +1,8 @@
 package org.example.shelter;
 
 import org.example.model.Animal;
+import org.example.model.AnimalId;
+import org.example.model.Dog;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,11 +11,13 @@ public class Shelter <T extends Animal>{
     private final List<T> animals = new ArrayList<>();
 
     public void addAnimal(T animal){
+
         animals.add(animal);
     }
 
     public List<T> getAllAnimals(){
         return new ArrayList<>(animals);
+        return animals;
     }
 
     public List<T> findBySpecies(String species){
@@ -21,6 +25,8 @@ public class Shelter <T extends Animal>{
         for(T animal : animals){
             if(animal.getSpecies().equalsIgnoreCase(species)){
 
+            if(animal.getClass().getSimpleName().equalsIgnoreCase(species)){
+                result.add(animal);
             }
         }
         return result;
