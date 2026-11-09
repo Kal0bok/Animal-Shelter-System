@@ -13,8 +13,7 @@ public class Shelter <T extends Animal>{
     }
 
     public List<T> getAllAnimals(){
-        // TODO
-        return null;
+        return new ArrayList<>(animals);
     }
 
     public List<T> findBySpecies(String species){
