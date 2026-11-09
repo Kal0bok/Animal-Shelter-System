@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="module2" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,61 +41,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000000009" />
-      <entry key="MS500" value="1.0009708906305381" />
-      <entry key="S2" value="1.2305335770601855" />
-      <entry key="S5" value="1.9779103742103068" />
-      <entry key="S10" value="3.2410218075085373" />
-      <entry key="S30" value="7.082721675763316" />
-      <entry key="S60" value="9.658654576025462" />
-      <entry key="M2" value="13.451515464333024" />
-      <entry key="M5" value="24.009792293760533" />
-      <entry key="M10" value="37.07083399143324" />
-      <entry key="M15" value="47.14477757940364" />
-      <entry key="M30" value="67.82967124081348" />
-      <entry key="H1" value="89.17793227816091" />
-      <entry key="H2" value="106.25777155508294" />
-      <entry key="H4" value="117.42997957167441" />
-      <entry key="D1" value="128.5456256208351" />
-      <entry key="W1" value="130.6442665010992" />
+      <entry key="MS100" value="1.0004340968203127" />
+      <entry key="MS500" value="1.2516936668255014" />
+      <entry key="S2" value="2.199897051591634" />
+      <entry key="S5" value="3.240008836073174" />
+      <entry key="S10" value="4.630452237644846" />
+      <entry key="S30" value="9.125408578207965" />
+      <entry key="S60" value="13.746153177142649" />
+      <entry key="M2" value="20.94030328882408" />
+      <entry key="M5" value="36.13494172145397" />
+      <entry key="M10" value="52.63105494799698" />
+      <entry key="M15" value="64.53593305089252" />
+      <entry key="M30" value="88.03159452689853" />
+      <entry key="H1" value="111.76111826849016" />
+      <entry key="H2" value="130.64325186135548" />
+      <entry key="H4" value="142.98990501383602" />
+      <entry key="D1" value="155.28357914760724" />
+      <entry key="W1" value="157.60623676783456" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="8.08284461043591E-203" />
-      <entry key="S2" value="3.5323634394114884E-51" />
-      <entry key="S5" value="9.275523866924757E-21" />
-      <entry key="S10" value="1.349491425533462E-10" />
-      <entry key="S30" value="9.488613488669372E-4" />
-      <entry key="S60" value="0.056866721460973275" />
-      <entry key="M2" value="0.46617165776143227" />
-      <entry key="M5" value="1.749034884944116" />
-      <entry key="M10" value="3.0375121026930776" />
-      <entry key="M15" value="3.835946951223604" />
-      <entry key="M30" value="5.04927753666645" />
-      <entry key="H1" value="5.903542719819733" />
-      <entry key="H2" value="6.416818796886586" />
-      <entry key="H4" value="6.69900316911742" />
-      <entry key="D1" value="6.948466366853712" />
-      <entry key="W1" value="6.992603735081506" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.5401993664899982E-86" />
+      <entry key="S5" value="6.654923553040485E-35" />
+      <entry key="S10" value="1.1430689854425648E-17" />
+      <entry key="S30" value="4.167128187965814E-6" />
+      <entry key="S60" value="0.003768558337444715" />
+      <entry key="M2" value="0.12000639557856277" />
+      <entry key="M5" value="1.0163935071848496" />
+      <entry key="M10" value="2.3155263218216593" />
+      <entry key="M15" value="3.2010593717855227" />
+      <entry key="M30" value="4.612536448690695" />
+      <entry key="H1" value="5.642453574975687" />
+      <entry key="H2" value="6.2733196576208154" />
+      <entry key="H4" value="6.623674836329636" />
+      <entry key="D1" value="6.935382685567275" />
+      <entry key="W1" value="6.990721245375758" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.400637024466946E-4" />
-      <entry key="MS500" value="0.21336175921675166" />
-      <entry key="S2" value="0.8118002869014808" />
-      <entry key="S5" value="1.5896323041826914" />
-      <entry key="S10" value="2.877759638552959" />
-      <entry key="S30" value="6.822271092709959" />
-      <entry key="S60" value="9.538316571082694" />
-      <entry key="M2" value="13.78403319331533" />
-      <entry key="M5" value="25.64797738671085" />
-      <entry key="M10" value="40.023142548177084" />
-      <entry key="M15" value="50.9114892727322" />
-      <entry key="M30" value="72.8335795905015" />
-      <entry key="H1" value="95.05399100765197" />
-      <entry key="H2" value="112.65908756708536" />
-      <entry key="H4" value="124.12068243657714" />
-      <entry key="D1" value="135.4926203870246" />
-      <entry key="W1" value="137.63665766766727" />
+      <entry key="MS100" value="0.001599092681422892" />
+      <entry key="MS500" value="0.36247423794047823" />
+      <entry key="S2" value="1.6292236673742997" />
+      <entry key="S5" value="2.717650336541832" />
+      <entry key="S10" value="4.104246819091807" />
+      <entry key="S30" value="8.735190715921135" />
+      <entry key="S60" value="13.478807810305936" />
+      <entry key="M2" value="20.87307390395309" />
+      <entry key="M5" value="37.018949726607325" />
+      <entry key="M10" value="54.84637557338866" />
+      <entry key="M15" value="67.6554206905547" />
+      <entry key="M30" value="92.59063904714182" />
+      <entry key="H1" value="117.37124203806815" />
+      <entry key="H2" value="136.8983752399405" />
+      <entry key="H4" value="149.6038503998224" />
+      <entry key="D1" value="162.21723892412578" />
+      <entry key="W1" value="164.59670919671876" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -114,7 +114,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "bug-fixes",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/bogdans.cumaks/IdeaProjects/acc-2026-java-m3a",
     "nodejs_package_manager_path": "npm"

@@ -17,8 +17,13 @@ public class Shelter <T extends Animal>{
     }
 
     public List<T> findBySpecies(String species){
-        // TODO
-        return null;
+        List<T> result = new ArrayList<>();
+        for(T animal : animals){
+            if(animal.getSpecies().equalsIgnoreCase(species)){
+
+            }
+        }
+        return result;
     }
 
     public List<T> findAvailableAnimals(){
