@@ -37,6 +37,11 @@ public class Shelter <T extends Animal>{
     }
 
     public void markAsAdopted(String id){
-        // TODO
+        for(T animal : animals){
+            if(animal.getId().toString().equals(id)){
+                animal.markAsAdopted();
+                break;
+            }
+        }
     }
 }
